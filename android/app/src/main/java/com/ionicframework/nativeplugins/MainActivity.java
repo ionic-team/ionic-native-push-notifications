@@ -18,7 +18,7 @@ import android.view.MenuItem;
 import android.widget.Toast;
 
 import com.google.firebase.iid.FirebaseInstanceId;
-import com.ionicframework.nativeplugins.core.IonicNativePlugin;
+import com.ionicframework.nativeplugins.push.IonicNativePlugin;
 import com.ionicframework.nativeplugins.push.IonicPushNotifications;
 
 import org.json.JSONObject;

@@ -11,6 +11,7 @@
 		508DBD4E206AC1F100D3BD39 /* IonicNativePushNotificationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508DBD4D206AC1F100D3BD39 /* IonicNativePushNotificationsTests.swift */; };
 		508DBD50206AC1F100D3BD39 /* IonicNativePushNotifications.h in Headers */ = {isa = PBXBuildFile; fileRef = 508DBD42206AC1F100D3BD39 /* IonicNativePushNotifications.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		508DBD5A206AC5FA00D3BD39 /* IonicPushNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508DBD59206AC5FA00D3BD39 /* IonicPushNotifications.swift */; };
+		9B9650EFDC12F536080F10CB /* Pods_IonicNativePushNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 833D55329517001E1236DF6A /* Pods_IonicNativePushNotifications.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,9 @@
 		508DBD4D206AC1F100D3BD39 /* IonicNativePushNotificationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IonicNativePushNotificationsTests.swift; sourceTree = "<group>"; };
 		508DBD4F206AC1F100D3BD39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		508DBD59206AC5FA00D3BD39 /* IonicPushNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IonicPushNotifications.swift; sourceTree = "<group>"; };
+		833D55329517001E1236DF6A /* Pods_IonicNativePushNotifications.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IonicNativePushNotifications.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		859892944B2BA029EB559488 /* Pods-IonicNativePushNotifications.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IonicNativePushNotifications.release.xcconfig"; path = "Pods/Target Support Files/Pods-IonicNativePushNotifications/Pods-IonicNativePushNotifications.release.xcconfig"; sourceTree = "<group>"; };
+		B9D5FC147CEA00173387070A /* Pods-IonicNativePushNotifications.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IonicNativePushNotifications.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IonicNativePushNotifications/Pods-IonicNativePushNotifications.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B9650EFDC12F536080F10CB /* Pods_IonicNativePushNotifications.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,12 +57,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2995AC7D82E78E7A4182D16B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				833D55329517001E1236DF6A /* Pods_IonicNativePushNotifications.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		508DBD35206AC1F100D3BD39 = {
 			isa = PBXGroup;
 			children = (
 				508DBD41206AC1F100D3BD39 /* IonicNativePushNotifications */,
 				508DBD4C206AC1F100D3BD39 /* IonicNativePushNotificationsTests */,
 				508DBD40206AC1F100D3BD39 /* Products */,
+				601795CAD5CC255821EE440B /* Pods */,
+				2995AC7D82E78E7A4182D16B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,6 +104,15 @@
 			path = IonicNativePushNotificationsTests;
 			sourceTree = "<group>";
 		};
+		601795CAD5CC255821EE440B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9D5FC147CEA00173387070A /* Pods-IonicNativePushNotifications.debug.xcconfig */,
+				859892944B2BA029EB559488 /* Pods-IonicNativePushNotifications.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -107,10 +131,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 508DBD53206AC1F100D3BD39 /* Build configuration list for PBXNativeTarget "IonicNativePushNotifications" */;
 			buildPhases = (
+				B93221AAA36D3FC24129490B /* [CP] Check Pods Manifest.lock */,
 				508DBD3A206AC1F100D3BD39 /* Sources */,
 				508DBD3B206AC1F100D3BD39 /* Frameworks */,
 				508DBD3C206AC1F100D3BD39 /* Headers */,
 				508DBD3D206AC1F100D3BD39 /* Resources */,
+				291A2AF47960FC8115E946C3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,6 +218,42 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		291A2AF47960FC8115E946C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IonicNativePushNotifications/Pods-IonicNativePushNotifications-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B93221AAA36D3FC24129490B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IonicNativePushNotifications-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		508DBD3A206AC1F100D3BD39 /* Sources */ = {
@@ -343,6 +405,7 @@
 		};
 		508DBD54206AC1F100D3BD39 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9D5FC147CEA00173387070A /* Pods-IonicNativePushNotifications.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -366,6 +429,7 @@
 		};
 		508DBD55206AC1F100D3BD39 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 859892944B2BA029EB559488 /* Pods-IonicNativePushNotifications.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
