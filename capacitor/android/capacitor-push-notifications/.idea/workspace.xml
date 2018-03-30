@@ -29,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ionicframework/capacitor/push/CapacitorPushNotifications.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1685#2173#0" expanded="true" />
@@ -1644,7 +1644,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ionicframework/capacitor/push/CapacitorPushNotifications.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1685#2173#0" expanded="true" />
