@@ -7,6 +7,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://ionicframework.com/'
   s.ios.deployment_target  = '10.0'
   s.authors = { 'Ionic Team' => 'hi@ionicframework.com' }
+  s.swift_version = '4.0.0'
   s.source = { :git => 'https://github.com/ionic-team/ionic-native-push-notifications.git', :tag => s.version.to_s }
   s.source_files = 'ios/IonicNativePushNotifications/IonicNativePushNotifications/**/*.{swift,h,m}'
   s.static_framework = true
