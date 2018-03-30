@@ -1,6 +1,6 @@
 {
   "name": "capacitor-push-notifications",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "Push notification library for Capacitor apps",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
