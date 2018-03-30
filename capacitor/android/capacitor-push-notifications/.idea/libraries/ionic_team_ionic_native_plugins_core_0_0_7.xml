@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="ionic-team:ionic-native-plugins-core-0.0.7">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ionic-native-plugins-core-0.0.7.aar/d84b6373ed1d83dc83525c917c0c3223/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ionic-native-plugins-core-0.0.7.aar/d84b6373ed1d83dc83525c917c0c3223/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ionic-team/ionic-native-plugins-core/0.0.7/258060523005bec9ba72a39ac26419015206fb91/ionic-native-plugins-core-0.0.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

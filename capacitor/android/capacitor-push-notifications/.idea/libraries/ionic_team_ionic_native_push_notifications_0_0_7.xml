@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="ionic-team:ionic-native-push-notifications-0.0.7">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ionic-native-push-notifications-0.0.7.aar/1c62e9640762c6b04d9245a4d9120164/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ionic-native-push-notifications-0.0.7.aar/1c62e9640762c6b04d9245a4d9120164/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ionic-team/ionic-native-push-notifications/0.0.7/def8f5f5af9b5676f4ebcb2ddc13e0a594a52c11/ionic-native-push-notifications-0.0.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

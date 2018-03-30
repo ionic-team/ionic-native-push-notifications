@@ -8,7 +8,7 @@ import com.getcapacitor.NativePlugin;
 import com.getcapacitor.Plugin;
 import com.getcapacitor.PluginCall;
 import com.getcapacitor.PluginMethod;
-import com.ionicframework.nativeplugins.core.IonicNativePlugin;
+import com.ionicframework.nativeplugins.push.IonicNativePlugin;
 import com.ionicframework.nativeplugins.push.IonicPushNotifications;
 
 import org.json.JSONObject;
