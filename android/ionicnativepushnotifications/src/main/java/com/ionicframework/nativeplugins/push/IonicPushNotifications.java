@@ -10,7 +10,6 @@ import com.google.firebase.iid.FirebaseInstanceId;
 import com.google.firebase.messaging.FirebaseMessaging;
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
-import com.ionicframework.nativeplugins.core.IonicNativePlugin;
 
 public class IonicPushNotifications extends IonicNativePlugin {
   protected static final String TAG = "IonicPushNotifications";
