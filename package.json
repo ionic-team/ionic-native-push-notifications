@@ -1,6 +1,6 @@
 {
   "name": "ionic-native-push",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "Ionic Native Push Notifications Plugin for Capacitor and Cordova",
   "main": "index.js",
   "scripts": {
