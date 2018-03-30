@@ -1,0 +1,32 @@
+{
+  "familyName": "Lynkh",
+  "givenName": "Maz",
+  "note": "Really cool guy",
+  "jobTitle": "CEO",
+  "nickname": "Chaz",
+  "emailAddresses": [
+    {
+      "label": "home",
+      "value": "max@ionic.io"
+    }
+  ],
+  "birthday": "1987-10-19T00:00:00.000Z",
+  "phoneNumbers": [
+    {
+      "label": "home",
+      "value": "414-530-9687"
+    }
+  ],
+  "postalAddresses": [
+    {
+      "label": "home",
+      "value": {
+        "street": "121 S. Pinckney st. Suite 300",
+        "city": "Madison",
+        "state": "Wisconsin",
+        "postalCode": "53703"
+      }
+    }
+  ],
+  "imageData": ""
+}

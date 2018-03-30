@@ -42,8 +42,8 @@ repositories {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     compileOnly 'ionic-team:capacitor-android:+'
-    api 'ionic-team:ionic-native-plugins-core:0.0.6'
-    api 'ionic-team:ionic-native-push-notifications:0.0.6'
+    api 'ionic-team:ionic-native-plugins-core:0.0.7'
+    api 'ionic-team:ionic-native-push-notifications:0.0.7'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
