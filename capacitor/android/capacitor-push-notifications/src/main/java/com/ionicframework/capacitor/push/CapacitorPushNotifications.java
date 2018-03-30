@@ -53,7 +53,7 @@ public class CapacitorPushNotifications extends Plugin {
     String eventName = call.getString("eventName");
 
     Log.d(Bridge.TAG, "Adding listener for " + eventName);
-    if (eventName.equals("pushOnMessage")) {
+    if (eventName.equals("pushOnNotification")) {
       IonicNativePlugin.PluginEventListener listener = new IonicNativePlugin.PluginEventListener() {
         @Override
         public void onEvent(String eventName, Object data) {
@@ -65,7 +65,7 @@ public class CapacitorPushNotifications extends Plugin {
             ret.put(field.getKey(), field.getValue());
           }
 
-          notifyListeners("pushOnMessage", ret);
+          notifyListeners("pushOnNotification", ret);
         }
       };
       IonicPushNotifications.getInstance().addListener("onMessage", listener);
