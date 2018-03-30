@@ -12,8 +12,6 @@ public class CAPPushNotifications: CAPPlugin {
     
   }
   
-  
-  
   @objc func getToken(_ call: CAPPluginCall) {
     let token = IonicPushNotifications.shared.token
     call.resolve([
