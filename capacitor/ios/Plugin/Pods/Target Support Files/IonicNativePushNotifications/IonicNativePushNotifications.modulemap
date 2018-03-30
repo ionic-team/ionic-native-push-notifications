@@ -1,0 +1,6 @@
+framework module IonicNativePushNotifications {
+  umbrella header "IonicNativePushNotifications-umbrella.h"
+
+  export *
+  module * { export * }
+}
