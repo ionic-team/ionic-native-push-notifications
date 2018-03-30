@@ -46,7 +46,7 @@ public class IonicPushNotifications: NSObject, UNUserNotificationCenterDelegate,
     FirebaseApp.configure()
   }
   
-  public func onRegister(handler: @escaping PushOnRegisterCallback) {
+  public func onToken(handler: @escaping PushOnRegisterCallback) {
     onRegisterHandler = handler
   }
   

@@ -11,6 +11,7 @@
 		508DBD4E206AC1F100D3BD39 /* IonicNativePushNotificationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508DBD4D206AC1F100D3BD39 /* IonicNativePushNotificationsTests.swift */; };
 		508DBD50206AC1F100D3BD39 /* IonicNativePushNotifications.h in Headers */ = {isa = PBXBuildFile; fileRef = 508DBD42206AC1F100D3BD39 /* IonicNativePushNotifications.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		508DBD5A206AC5FA00D3BD39 /* IonicPushNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 508DBD59206AC5FA00D3BD39 /* IonicPushNotifications.swift */; };
+		50DAAE4D206EA7000051215F /* IonicNativePlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DAAE4C206EA7000051215F /* IonicNativePlugin.swift */; };
 		9B9650EFDC12F536080F10CB /* Pods_IonicNativePushNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 833D55329517001E1236DF6A /* Pods_IonicNativePushNotifications.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		508DBD4D206AC1F100D3BD39 /* IonicNativePushNotificationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IonicNativePushNotificationsTests.swift; sourceTree = "<group>"; };
 		508DBD4F206AC1F100D3BD39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		508DBD59206AC5FA00D3BD39 /* IonicPushNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IonicPushNotifications.swift; sourceTree = "<group>"; };
+		50DAAE4C206EA7000051215F /* IonicNativePlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IonicNativePlugin.swift; sourceTree = "<group>"; };
 		833D55329517001E1236DF6A /* Pods_IonicNativePushNotifications.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IonicNativePushNotifications.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		859892944B2BA029EB559488 /* Pods-IonicNativePushNotifications.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IonicNativePushNotifications.release.xcconfig"; path = "Pods/Target Support Files/Pods-IonicNativePushNotifications/Pods-IonicNativePushNotifications.release.xcconfig"; sourceTree = "<group>"; };
 		B9D5FC147CEA00173387070A /* Pods-IonicNativePushNotifications.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IonicNativePushNotifications.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IonicNativePushNotifications/Pods-IonicNativePushNotifications.debug.xcconfig"; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				508DBD42206AC1F100D3BD39 /* IonicNativePushNotifications.h */,
 				508DBD43206AC1F100D3BD39 /* Info.plist */,
 				508DBD59206AC5FA00D3BD39 /* IonicPushNotifications.swift */,
+				50DAAE4C206EA7000051215F /* IonicNativePlugin.swift */,
 			);
 			path = IonicNativePushNotifications;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50DAAE4D206EA7000051215F /* IonicNativePlugin.swift in Sources */,
 				508DBD5A206AC5FA00D3BD39 /* IonicPushNotifications.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,7 +421,11 @@
 				INFOPLIST_FILE = IonicNativePushNotifications/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ionicframework.native.IonicNativePushNotifications;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -441,7 +449,11 @@
 				INFOPLIST_FILE = IonicNativePushNotifications/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ionicframework.native.IonicNativePushNotifications;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -456,7 +468,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = IonicNativePushNotificationsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ionicframework.native.IonicNativePushNotificationsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -470,7 +486,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = IonicNativePushNotificationsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ionicframework.native.IonicNativePushNotificationsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
