@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target  = '10.0'
   s.authors = { 'Ionic Team' => 'hi@ionicframework.com' }
   s.source = { :git => 'https://github.com/ionic-team/ionic-native-push-notifications.git', :tag => s.version.to_s }
-  s.source_files = 'IonicNativePushNotifications/IonicNativePushNotifications/**/*.{swift,h,m}'
+  s.source_files = 'ios/IonicNativePushNotifications/IonicNativePushNotifications/**/*.{swift,h,m}'
   s.static_framework = true
   s.dependency 'FirebaseMessaging'
 end
