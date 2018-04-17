@@ -1,9 +1,11 @@
 import { WebPlugin } from '@capacitor/core';
-export declare class MyPluginWeb extends WebPlugin {
+import '@firebase/messaging';
+import { PushConfigureOptions, PushNotificationsPlugin, PushToken } from "./definitions";
+export declare class PushNotificationsPluginWeb extends WebPlugin implements PushNotificationsPlugin {
+    messaging: any;
     constructor();
-    echo(options: {
-        value: string;
-    }): Promise<void>;
+    configure(options: PushConfigureOptions): Promise<void>;
+    getToken(): Promise<PushToken>;
 }
-declare const MyPlugin: MyPluginWeb;
-export { MyPlugin };
+declare const PushNotifications: PushNotificationsPluginWeb;
+export { PushNotifications };
