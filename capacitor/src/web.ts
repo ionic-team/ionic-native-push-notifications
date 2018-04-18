@@ -1,6 +1,6 @@
 import { WebPlugin } from '@capacitor/core';
 import firebase from '@firebase/app';
-import '@firebase/messaging'
+import '@firebase/messaging';
 import {PushConfigureOptions, PushNotificationsPlugin, PushToken} from "./definitions";
 
 export class PushNotificationsPluginWeb extends WebPlugin implements PushNotificationsPlugin{
