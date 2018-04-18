@@ -5,7 +5,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
-import 'capacitor-push-notifications-mikes';
+import 'capacitor-push-notifications';
 import {Plugins} from '@capacitor/core';
 
 @Component({
