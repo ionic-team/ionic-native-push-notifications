@@ -1,11 +1,11 @@
 {
   "name": "capacitor-push-notifications",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "description": "Push notification library for Capacitor apps",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
   "scripts": {
-    "build": "npm run clean && tsc",
+    "build": "tsc",
     "clean": "rm -rf ./dist",
     "watch": "tsc --watch",
     "prepublishOnly": "npm run build"
@@ -14,7 +14,10 @@
   "license": "MIT",
   "dependencies": {
     "@capacitor/cli": "^1.0.0-alpha.31",
-    "@capacitor/core": "^1.0.0-alpha.31"
+    "@capacitor/core": "^1.0.0-alpha.31",
+    "@firebase/app": "^0.1.10",
+    "@firebase/messaging": "^0.2.3",
+    "promise-polyfill": "^7.1.2"
   },
   "devDependencies": {
     "typescript": "^2.6.2"

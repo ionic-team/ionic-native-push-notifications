@@ -12,7 +12,8 @@ export interface PushNotificationsPlugin {
 }
 
 export interface PushConfigureOptions {
-  [x: string]: any;
+  senderId: string,
+  mode: 'fcm',
 }
 
 export interface PushToken {
